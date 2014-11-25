@@ -663,6 +663,7 @@ ul.sub-menu {
   padding-bottom: 20px;
   padding-top: 15px;
 }
+
 .left-sidebar h2, .brands_products h2 {
   color: #FE980F;
   font-family: 'Roboto', sans-serif;
@@ -678,7 +679,7 @@ ul.sub-menu {
 .left-sidebar h2:after, h2.title:after{
 	content: " ";
 	position: absolute;
-	border: 1px solid #f5f5f5;
+	/*border: 1px solid #f5f5f5;*/
 	bottom:8px;
 	left: 0;
 	width: 100%;
@@ -689,7 +690,7 @@ ul.sub-menu {
 .left-sidebar h2:before{
 	content: " ";
 	position: absolute;
-	background: #fff;
+	/*background: #fff;*/
 	bottom: -6px;
 	width: 130px;
 	height: 30px;
@@ -762,6 +763,41 @@ h2.title:before{
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   text-transform: uppercase;
+}
+
+.barra-izquierda {
+  border: 1px solid #F7F7F0;
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+.barra-izquierda .nav-stacked li {
+  color:#FFF /*#696763*/;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding: 5px 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.barra-izquierda h2{
+	color:#FFF;
+}
+
+.azul{
+	background-color:#09F;
+}
+
+.fucsia{
+	background-color:#F06;	
+}
+
+.naranjo{
+	background-color:#F90;	
+}
+
+.verde{
+	background-color:#396;	
 }
 
 .brands-name {
